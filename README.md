@@ -12,23 +12,31 @@ The goal of this analysis was to understand the sentiment surrounding FIFA 2022 
 
 <b>Key Steps</b>:
 
-<b>*Data Collection</b>: Extracted relevant features like tweet text, timestamp, user details, and engagement metrics.
+<b>*Data Collection</b>: 
+
+Import library and load dataset.
 
 <b>*Data Cleaning and Preprocessing</b>: 
 
 Handled missing values, removed duplicates, and applied text cleaning techniques to enhance the quality of the dataset.
-Tokenized and lemmatized the tweet text for better analysis.
-
-<b>*Sentiment Analysis</b>:
-
-Utilized Natural Language Processing (NLP) techniques to perform sentiment analysis on the tweet text.
-Classified tweets into positive, negative, or neutral sentiments using a pre-trained model.
 
 <b>*Exploratory Data Analysis (EDA)</b>:
 
 Visualized sentiment distribution to gain insights into the overall mood of Twitter users regarding FIFA 2022.
-Explored the most frequently mentioned words and hashtags in positive and negative sentiment categories.
+Explored the most frequently mentioned words and visualized in a WordCloud.
 
 <b>*Time Series Analysis</b>:
 
-Examined the temporal trends of sentiment to identify any significant patterns or spikes during specific events (in this case if the tweet was Neutral,Positive, or Negative).
+Examined the temporal trends of sentiment to identify any significant patterns or spikes during specific hours.
+
+<b>*Modeling</b>:
+
+Utilized Machine Learning techniques to perform sentiment prediction on the tweet text.
+
+-Naive Bayes
+
+-Vader
+
+-Xgboost
+
+-Random Forest
