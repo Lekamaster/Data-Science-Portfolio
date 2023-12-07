@@ -1,4 +1,4 @@
-# Data-Sciente-Portfolio
+# Data-Science-Portfolio
 This is a  repository of the projects I worked on or currently working on. All the current projects are written in Python (Jupyter Notebook). Click on the projects to see full analysis and code.
 
 Please contact me on [Linkedin](https://www.linkedin.com/in/yamil-velazquez92/) if you are looking to hire a data scientist / data analyst.
